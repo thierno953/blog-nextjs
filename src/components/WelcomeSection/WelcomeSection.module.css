@@ -1,0 +1,43 @@
+.welcomeContainer {
+  display: flex;
+  align-items: center;
+  padding: 6rem 0;
+}
+
+.image {
+  display: none;
+  width: 154px;
+  height: 154px;
+  object-fit: cover;
+  padding: 2px;
+  border-radius: 10px;
+  border: 2px solid var(--background);
+  background-color: var(--foregroundDarker);
+}
+
+.welcomeContainer h1 {
+  font-size: 1.25rem;
+  line-height: 34px;
+}
+
+.welcomeContainer h1 a {
+  font-weight: 600;
+}
+
+.welcomeContainer h1 a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 1024px) {
+  .welcomeContainer {
+    padding: 10rem 0;
+  }
+
+  .image {
+    display: block;
+  }
+
+  .welcomeContainer h1 {
+    padding: 1.25rem;
+  }
+}

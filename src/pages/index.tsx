@@ -1,5 +1,6 @@
 import Head from "next/head";
 import globalStyles from '@/styles/Global.module.css';
+import WelcomeSection from "@/components/WelcomeSection/WelcomeSection";
 
 
 export default function Home() {
@@ -12,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/thierno.png" />
       </Head>
       <main className={globalStyles.container}>
-        <h1>Hello World!</h1>
+        <WelcomeSection />
       </main>
     </>
   );

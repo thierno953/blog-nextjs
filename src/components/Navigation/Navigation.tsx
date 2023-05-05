@@ -15,7 +15,13 @@ const Navigation = () => {
     <div className={clsx(globalStyles.container, styles.navigationContainer)}>
       <div className={styles.logoContainer}>
         <Link href="/">
-          <Image src={Logo} alt="logo" className={styles.logo} />
+          <Image
+            priority
+            src={Logo}
+            placeholder="blur"
+            alt="Logo"
+            className={styles.logo}
+          />
         </Link>
         <ThemeToggler />
       </div>
