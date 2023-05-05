@@ -1,5 +1,5 @@
 import Head from "next/head";
-import styles from '@/styles/Global.module.css';
+import globalStyles from '@/styles/Global.module.css';
 
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/thierno.png" />
       </Head>
-      <main className={styles.container}>
+      <main className={globalStyles.container}>
         <h1>Hello World!</h1>
       </main>
     </>

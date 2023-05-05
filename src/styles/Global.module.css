@@ -6,6 +6,10 @@
   padding-right: 1.25rem;
 }
 
+.errorContainer {
+  margin: 6rem 0;
+}
+
 .hideMobile {
   display: none;
 }
