@@ -42,7 +42,7 @@ const LatestPosts = ({ posts, hideTitle }: Props) => {
   };
 
   return (
-    <section className={styles.latestPosts}>
+    <section className={styles.latestPosts}> 
       {!hideTitle && (
         <div className={styles.latestPostsTop}>
           <h2>Latest posts</h2>
