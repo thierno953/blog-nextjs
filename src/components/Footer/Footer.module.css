@@ -2,6 +2,7 @@
   border-top: 1px solid var(--lineBreak);
   padding: 1.5rem 0;
   color: var(--foregroundDarker);
+  font-size: 1.25rem;
 }
 
 .footer a:hover {

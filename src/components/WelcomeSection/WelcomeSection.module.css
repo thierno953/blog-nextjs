@@ -15,16 +15,16 @@
   background-color: var(--foregroundDarker);
 }
 
-.welcomeContainer h1 {
+.welcomeText h1 {
   font-size: 1.25rem;
   line-height: 34px;
 }
 
-.welcomeContainer h1 a {
+.welcomeText h1 a {
   font-weight: 600;
 }
 
-.welcomeContainer h1 a:hover {
+.welcomeText h1 a:hover {
   text-decoration: underline;
 }
 
@@ -37,7 +37,7 @@
     display: block;
   }
 
-  .welcomeContainer h1 {
+  .welcomeText h1 {
     padding: 1.25rem;
   }
 }
