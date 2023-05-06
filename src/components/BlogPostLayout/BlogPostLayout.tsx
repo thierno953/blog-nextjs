@@ -22,10 +22,10 @@ interface Props {
 }
 
 const BlogPostLayout = ({
-  title = "Dawid Abram - Blog",
-  description = "Dawid Abram - Blog",
+  title = "Thierno Barry - Blog",
+  description = "Thierno Barry - Blog",
   publishedAt,
-  keywords = "blog, Dawid Abram, reactjs, nextjs, typescript, tutorial",
+  keywords = "blog, reactjs, nextjs, typescript",
   imageUrl,
   hideTableOfContents = false,
   hideShareButton = false,
@@ -102,7 +102,7 @@ const BlogPostLayout = ({
             <p>{keywords}</p>
           </div>
         </div>
-        {!!imageUrl ? (
+        {/* {!!imageUrl ? (
           <Image
             src={imageUrl}
             placeholder="blur"
@@ -112,7 +112,7 @@ const BlogPostLayout = ({
             alt={title}
             className={styles.postImage}
           />
-        ) : null}
+        ) : null} */}
         <div
           className={
             !!headings && headings.length > 0 && !hideTableOfContents

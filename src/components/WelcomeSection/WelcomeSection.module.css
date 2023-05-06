@@ -6,15 +6,17 @@
 
 .image {
   display: none;
-  width: 124px;
-  height: 124px;
+  width: 154px;
+  height: 154px;
   object-fit: cover;
-  border-radius: 50%;
+  padding: 2px;
+  border-radius: 10px;
+  border: 2px solid var(--background);
   background-color: var(--foregroundDarker);
 }
 
 .welcomeContainer h1 {
-  font-size: 1.25rem;
+  font-size: 18px;
   line-height: 34px;
 }
 

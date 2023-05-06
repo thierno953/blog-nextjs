@@ -74,6 +74,9 @@ const LatestPosts = ({ posts, hideTitle }: Props) => {
               <p>{post.readingTime} min. read</p>
             </div>
             <h3>{getShortTitle(post.data.title)}</h3>
+            <div>
+              <p>{post.data.description}</p>
+            </div>
           </Link>
         ))}
       </div>

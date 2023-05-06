@@ -1,5 +1,5 @@
 import Image from "next/image";
-import DawidAbramImage from "../../../public/dawidabram.webp";
+import DawidAbramImage from "../../../public/team-3.jpg";
 import styles from "./WelcomeSection.module.css";
 
 const WelcomeSection = () => {
@@ -18,8 +18,8 @@ const WelcomeSection = () => {
         A full stack website developer specialising in javascript applications and DevSecOps engineer
         <br />
         Currently working @{" "}
-        <a href="https://th-ey.com" target="_blank" rel="noopener noreferrer">
-          Becode
+        <a href="https://react-vitejs-eta.vercel.app" target="_blank" rel="noopener noreferrer">
+          Diarabaka
         </a>
       </h1>
     </header>

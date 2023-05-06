@@ -21,10 +21,10 @@ const BlogPage = ({ posts }: { posts: BlogPost[] }) => {
   return (
     <>
       <Head>
-        <title>Dawid Abram - Blog posts</title>
-        <meta name="description" content="Dawid Abram - Blog posts" />
+        <title>Thierno Barry - Blog posts</title>
+        <meta name="description" content="Thierno Barry - Blog posts" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/logo.svg" />
+        <link rel="icon" href="/thierno.png" />
       </Head>
       <main className={styles.container}>
         <h1 className={styles.mainTitle}>Blog</h1>
