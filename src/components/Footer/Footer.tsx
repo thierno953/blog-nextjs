@@ -1,4 +1,4 @@
-import globalStyles from "@/styles/Global.module.css";
+import globalStyles from "@/styles/Main.module.css";
 import styles from "./Footer.module.css";
 
 const Footer = () => {
@@ -15,7 +15,7 @@ const Footer = () => {
           rel="noreferrer noopener"
         >
           source code
-        </a>
+        </a> 
       </footer>
     </div>
   );

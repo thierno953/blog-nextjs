@@ -1,8 +1,8 @@
 import Head from "next/head";
-import globalStyles from "@/styles/Global.module.css";
+import globalStyles from "@/styles/Main.module.css";
 import styles from "./AboutPage.module.css";
 import Image from "next/image";
-import DawidAbramImage from "../../../public/team-3.jpg";
+import DawidAbramImage from "../../../public/dawidabram.webp";
 import Link from "next/link";
 
 export default function AboutPage() {
@@ -15,7 +15,7 @@ export default function AboutPage() {
         <link rel="icon" href="/logo.svg" />
       </Head>
       <main className={globalStyles.container}>
-        <h1 className={globalStyles.mainTitle}>About me</h1>
+        <h1 className={globalStyles.mainTitle}>About</h1>
         <section className={styles.aboutMeSection}>
           <header className={styles.imageContainer}>
             <Image
@@ -27,25 +27,26 @@ export default function AboutPage() {
             <div>
               <p>Hi I’m Thierno M Barry! 👋</p>
               <p>
-                I&apos;m a full stack website developer based in Belgium
-                currently working at{" "}
+                I&apos;m a full stack website developer based out of United
+                Kingdom, currently working at{" "}
                 <a
-                  href="https://react-vitejs-eta.vercel.app/"
+                  href="https://th-ey.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Becode
+                  TH-EY
                 </a>
                 . I work with javascript technologies, such as ReactJs and
-                NextJs, but also have a solid background in NodeJS, which I have
-                utilized to develop APIs and backend logic with ExpressJS.
+                NextJs, but also have a solid background in Java, which I have
+                utilized to develop APIs and backend logic with Spring Boot.
               </p>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-                voluptates facere fuga labore repudiandae, cum necessitatibus
-                quasi in temporibus dolore eius{" "}
+                I got started in my career in engineering while studying
+                computing at Manchester Metropolitan University. Since then, I
+                have continued to grow my skill set as a consultant, working in
+                various projects, some of which you can find on{" "}
                 <a
-                  href="https://react-vitejs-eta.vercel.app/"
+                  href="https://th-ey.com/portfolio/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -54,14 +55,17 @@ export default function AboutPage() {
                 .
               </p>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-                voluptates facere fuga labore repudiandae, cum necessitatibus
-                quasi in temporibus dolore eius quaerat dignissimos tenetur
-                beatae magni neque. Iste, molestiae earum!
+                Recently I also began sharing my experiences and knowledge
+                through blog posts and videos. These cover subjects and
+                technologies that I have recently worked with, as well as my
+                findings and learnings. Additionally, I have been working on
+                small side projects in my spare time and publishing them as open
+                source projects on GitHub. With a goal of helping others who may
+                encounter similar challenges in their work.
               </p>
               <p>If you are interested in more information about me</p>
               <Link
-                href="/"
+                href="/Dawid-Abram_CV.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.button}

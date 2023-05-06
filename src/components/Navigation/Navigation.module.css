@@ -28,7 +28,6 @@
 .navigation ul li a {
   display: block;
   padding: 20px 0 18px 0;
-  font-size: 1.25rem;
   height: 100%;
   margin-right: 20px;
   color: var(--foregroundDarker);

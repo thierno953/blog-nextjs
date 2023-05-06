@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Profile from "../../../public/team-3.jpg";
+import DawidAbramImage from "../../../public/dawidabram.webp";
 import styles from "./WelcomeSection.module.css";
 
 const WelcomeSection = () => {
@@ -7,27 +7,21 @@ const WelcomeSection = () => {
     <header className={styles.welcomeContainer}>
       <Image
         priority
-        src={Profile}
+        src={DawidAbramImage}
         placeholder="blur"
-        alt="Thierno Barry"
+        alt="Dawid Abram"
         className={styles.image}
       />
-      <div className={styles.welcomeText}>
-        <h1>
-          Hi I’m Thierno M Barry! 👋
-          <br />
-          A full stack website developer specialising in javascript applications
-          (React and NodeJS)
-          <br />I am currently learning DevOps and System Admin @
-          <a
-            href="https://becode.org/all-trainings/pedagogical-framework-devops/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Becode
-          </a>
-        </h1>
-      </div>
+      <h1>
+        Hi I’m Thierno Barry! 👋
+        <br />
+        A full stack website developer specialising in javascript applications and DevSecOps engineer
+        <br />
+        Currently working @{" "}
+        <a href="https://th-ey.com" target="_blank" rel="noopener noreferrer">
+          Becode
+        </a>
+      </h1>
     </header>
   );
 };

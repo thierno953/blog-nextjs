@@ -6,25 +6,23 @@
 
 .image {
   display: none;
-  width: 154px;
-  height: 154px;
+  width: 124px;
+  height: 124px;
   object-fit: cover;
-  padding: 2px;
-  border-radius: 10px;
-  border: 2px solid var(--background);
+  border-radius: 50%;
   background-color: var(--foregroundDarker);
 }
 
-.welcomeText h1 {
+.welcomeContainer h1 {
   font-size: 1.25rem;
   line-height: 34px;
 }
 
-.welcomeText h1 a {
+.welcomeContainer h1 a {
   font-weight: 600;
 }
 
-.welcomeText h1 a:hover {
+.welcomeContainer h1 a:hover {
   text-decoration: underline;
 }
 
@@ -37,7 +35,7 @@
     display: block;
   }
 
-  .welcomeText h1 {
+  .welcomeContainer h1 {
     padding: 1.25rem;
   }
 }

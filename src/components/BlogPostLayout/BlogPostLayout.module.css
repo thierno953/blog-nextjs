@@ -1,0 +1,51 @@
+.postTitleContainer {
+    padding: 4rem 0;
+}
+
+.postTitle {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.underTitle {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+
+.underTitle p {
+    color: var(--foregroundDarker);
+}
+
+.underTitle p:first-child {
+    position: relative;
+    padding-right: 2rem;
+}
+
+.underTitle p:first-child::after {
+    display: block;
+    content: "";
+    width: 0.8rem;
+    height: 1px;
+    background-color: var(--foregroundDarker);
+    position: absolute;
+    top: 50%;
+    right: 0.6rem;
+}
+
+.postImage {
+    height: 30vh;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 4rem;
+}
+
+@media (min-width: 1024px) {
+  .postImage {
+    height: 50vh;
+    margin-bottom: 6rem;
+  }
+}

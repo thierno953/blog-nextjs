@@ -1,10 +1,10 @@
 .aboutMeSection {
-  font-size: 1.25rem;
+  font-size: 18px;
   line-height: 30px;
 }
 
 .aboutMeSection a {
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .aboutMeSection a:hover {
@@ -26,9 +26,7 @@
   width: 100%;
   height: auto;
   object-fit: cover;
-  border-radius: 10px;
-  border: 2px solid var(--background);
-  background-color: var(--foregroundDarker);
+  border-radius: 8px;
 }
 
 .button {

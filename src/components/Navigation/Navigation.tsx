@@ -1,12 +1,12 @@
 import Link from "next/link";
-import Image from "next/image";
 import clsx from "clsx";
 import { GithubLogo, LinkedinLogo } from "phosphor-react";
+import Logo from "../../../public/thierno.png";
+import Image from "next/image";
+import ThemeToggler from "./ThemeToggle/ThemeToggler";
+import styles from "@/components/Navigation/Navigation.module.css";
+import globalStyles from "@/styles/Main.module.css";
 import { useRouter } from "next/router";
-import ThemeToggler from "./ThemeToggle/ThemeToggle";
-import Logo from "@/../public/thierno.png";
-import styles from "./Navigation.module.css";
-import globalStyles from "@/styles/Global.module.css";
 
 const Navigation = () => {
   const { pathname } = useRouter();
@@ -14,15 +14,13 @@ const Navigation = () => {
   return (
     <div className={clsx(globalStyles.container, styles.navigationContainer)}>
       <div className={styles.logoContainer}>
-        <Link href="/">
-          <Image
-            priority
-            src={Logo}
-            placeholder="blur"
-            alt="Logo"
-            className={styles.logo}
-          />
-        </Link>
+        <Image
+          priority
+          src={Logo}
+          placeholder="blur"
+          alt="Logo"
+          className={styles.logo}
+        />
         <ThemeToggler />
       </div>
       <nav className={styles.navigation}>

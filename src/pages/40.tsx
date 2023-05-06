@@ -1,5 +1,5 @@
 import Head from "next/head";
-import globalStyles from "@/styles/Global.module.css";
+import styles from "@/styles/Main.module.css";
 
 export default function Home() {
   return (
@@ -8,14 +8,14 @@ export default function Home() {
         <title>Thierno Barry - Not found</title>
         <meta name="description" content="Thierno Barry - Not found" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/thierno.png" />
+        <link rel="icon" href="/logo.svg" />
       </Head>
-      <main className={globalStyles.container}>
-        <div className={globalStyles.errorContainer}>
+      <main className={styles.container}>
+        <div className={styles.errorContainer}>
           <h1>404</h1>
           <p>Oops! Page not found</p>
         </div>
       </main>
     </>
-  ); 
+  );
 }

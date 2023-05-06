@@ -1,0 +1,101 @@
+---
+title: Title blog 
+description: Some test
+publishedAt: 04/05/2023
+imageUrl: /images/landscape.webp
+---
+
+import BlogPostLayout from "../../components/BlogPostLayout";
+import BlogPostImage from "../../../public/images/landscape.webp";
+
+export default ({ title, publishedAt, imageUrl, children }) => (
+    <BlogPostLayout title={title} publishedAt="04/05/2023" imageUrl={BlogPostImage}>
+      { children }
+    </BlogPostLayout>
+
+
+)
+
+Hello World!
+
+
+## How can you check the most memory intensive running tasks ?
+
+The built-in `top` command provides a dynaminc real-time view of running system.
+
+### What are log files and where can you find them ?
+
+Log files are the records that Linux stores for administrators to keep track and monitor important events about the server, kernel, services, and applications running on it.
+
+Linux provides a centralized repository of log files that can be located under the `/var/log` directory.
+
+The log files generated in a Linux environment can typically be classified into four different categories:
+
+- Application Logs
+- Event Logs
+- Service Logs
+- System Logs
+
+```bash
+variable "ec2_instance_type" {
+  type = string
+  description = "Instance type to use when launching the instance"
+}
+
+variable "ec2_ami" {
+  type = string
+  description = "AMI to use when launching the instance"
+}
+
+variable "ec2_key_name" {
+  type = string
+  description = "Key name to use when launching the instance"
+}
+```
+# Description
+
+This challenge is about monitoring linux system. So I'll show you the most important responsabilities of a system administrator. So to achieve this purpose, I'll complete two tasks:
+
+1. Task 1: researching how to monitor a linux system (summarize into a file).
+2. Task 2: practicing monitoring and write a system report.
+
+# How to monitor a linux system ?
+
+Monitoring a system means monitoring the server performance. The server hosts
+services/applications and it's really important to make sure they are available,
+reliable and secure.  
+The best way to tackle this question is to answer the following questions:
+
+## What are the main area of concern when monitoring a linux system ?
+
+Below is a non-exhaustive list of main area to monitor:
+
+- CPU and Memory usage.
+- Disk utilization.
+- Running and active processes.
+- Running and active disk files, network sockets and devices.
+- Network traffic: incoming and outgoing packets (TCP, UDP, IP, ICMP, ...)
+- Network Bandwidth utilization.
+- User activity.
+
+## How can you check the most memory intensive running tasks ?
+
+The built-in `top` command provides a dynaminc real-time view of running system.
+
+```bash
+resource "aws_instance" "ec2_instance" {
+  instance_type          = var.ec2_instance_type
+  ami                    = var.ec2_ami
+  vpc_security_group_ids = ["${data.aws_security_group.existing_security_group.id}"]
+  subnet_id              = "${data.aws_subnet.existing_subnet.id}"
+  key_name               = "${data.aws_key_pair.existing_key_pair.key_name}"
+}
+```
+
+
+---
+title: Free Custom Email for Your Domain - How to Set Up Email Forwarding with Google without Google Workspace
+publishedAt: 02/17/2023
+
+---
+
